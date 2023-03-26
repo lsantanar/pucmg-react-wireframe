@@ -1,0 +1,56 @@
+/* HEADING TAGS */
+h1 {
+  font-size:40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* HEADER */
+.HeaderPage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+div.HeaderPage {
+  color: #00C0FF;
+  background-color: #344A53;
+  text-align: center;
+}
+
+/* BODY */
+body {
+  background-color: #F1F1E6;
+}
+
+/* FOOTER */
+.FooterPage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+div.FooterPage {
+  font-size: 10px;
+  font-family:sans-serif;
+  text-align: center;
+  color: #00C0FF;
+  background-color: #344A53;
+}
+
+/* Image GIF */
+.ImageGif {
+  position:fixed;
+  justify-content: center;
+  align-items: center;
+  top: 150px;
+  left: 0;
+}
+
+/* Texto lateral */
+.TextBox {
+  text-align: center;
+}
