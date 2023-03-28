@@ -43,14 +43,23 @@ div.FooterPage {
 
 /* Image GIF */
 .ImageGif {
-  position:fixed;
-  justify-content: center;
-  align-items: center;
-  top: 150px;
-  left: 0;
+  position:static;
+  padding-top: 137px;
+  padding-left: 105px;
+}
+
+#image {
+  width: 900px;
+  height: 700px;
 }
 
 /* Texto lateral */
-.TextBox {
-  text-align: center;
+.Text {
+  text-align: justify;
+  font-family:'Times New Roman', Times, serif;
+  top: 100px;
+  position: absolute;
+  padding: 40px;
+  padding-left: 1070px;
+  padding-right: 105px;
 }
